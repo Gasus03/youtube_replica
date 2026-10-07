@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+    }
+
+    header {
+      background-color: lightblue;
+      padding: 1rem;
+    }
+
+    .wrapper {
+      display: flex;
+      flex: 1;
+      background-color: blueviolet;
+    }
+
+    aside {
+      background-color: aquamarine;
+      padding: 1rem;
+    }
+
+    main {
+      background-color: brown;
+      padding: 1rem;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    I'm a header
+  </header>
+  <div class="wrapper">
+    <aside>Aside</aside>
+    <main>Main</main>
+  </div>
+</body>
+</html>
